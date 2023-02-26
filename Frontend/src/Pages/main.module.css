@@ -1,0 +1,14 @@
+
+.wrap{
+    display: flex;
+    margin: 10px 159.6px;
+}
+.khuyenmai{
+    flex: 2;
+}
+.contact{
+    flex: 2;
+}
+.navbar{
+    flex: 1;
+}

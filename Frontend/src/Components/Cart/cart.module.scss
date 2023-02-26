@@ -1,0 +1,298 @@
+
+.content_page{
+    padding: 10px;
+}
+table{
+    width: 100%;
+}
+thead, tbody{
+    width: 100%;
+}
+.tr,.td{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cart_main{
+    margin-left: 159.6px;
+    margin-right: 159.6px;
+    .title{
+        margin-top: 20px;
+        h1{
+            color: #000;
+            margin: 0;
+        }
+    }
+    .way{
+        a{
+            text-decoration: none;
+        }
+        .icon{
+            margin: 0 5px;
+            font-size: 12px;
+        }
+    }
+}
+
+.woocommerce{
+    display: flex;
+    background-color: rgba(15, 193, 48, 0.278);
+    border-radius: 10px;
+    width: 1170px;
+    padding: 20px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.content_cart{
+    position: relative;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+.product_cart{
+    width: 60%;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+    .table_product{
+    }
+}
+.total_price{
+
+    width: 40%;   
+    padding-left: 40px;
+    padding-right: 40px;
+    border-left: 2px solid black;
+}
+.product_remove{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 7.2px;
+    padding-right: 7.2px;
+    .product_remove_icon{
+        &:hover{
+            cursor: pointer;
+            color: #ccc;
+        }
+    }
+}
+.product_remove a i{
+    font-size: 24px;
+}
+
+.product_img{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 7.2px;
+    padding-right: 7.2px;
+}
+
+.product_name{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 7.2px;
+    padding-right: 7.2px;
+}
+.product_price{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 7.2px;
+    padding-right: 7.2px;
+}
+.product_quantity{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 7.2px;
+    padding-right: 7.2px;
+    display: flex;
+    .quantity_up{
+        padding: 6px 5px;
+        border: 1px solid #ccc;
+        cursor: pointer;
+    }
+    .quantity_number{
+        padding: 6px 20px;
+        border: 1px solid #ccc;
+    }
+    .quantity_down{
+        padding: 6px 5px;
+        border: 1px solid #ccc;
+        cursor: pointer;
+    }
+    .icon{
+        color: #7c7c7c;
+        font-weight: 200;
+    }
+}
+.product_quantity input{
+    height: 36px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 58px;
+    border: 1px solid;
+}
+.product_total_price{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 7.2px;
+    padding-right: 7.2px;
+}
+
+.img_title{
+    width: 75.6px;
+    height: 90.59px;
+}
+
+.name_product{
+    text-decoration: none;
+}
+
+
+.title_table{
+    background-color: rgb(201, 225, 230);
+    height: 48px;
+    font-size: 18px;
+    
+}
+
+.title_table th{
+    padding: 7.2px;
+}
+
+.infor_table{
+    // display: flex;
+    // align-items: center;
+}
+.right_content{
+    float: right;
+}
+
+.tam_tinh{
+    margin-top:20px ;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight:bold;
+}
+
+.phai_tra{
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight:bold;
+}
+
+.thanh_toan{
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight:bold;
+}
+.thanh_toan button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(23, 182, 23);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    &:hover{
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}
+.continue_shopping_update{
+    display: flex;
+    margin-top: 20px;
+}
+.discount_content{
+    margin-top: 20px;
+}
+
+.discount_title{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.discountcode_input input{
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    padding-inline: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.discount_submit button{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    &:hover{
+        cursor: pointer;
+        opacity: 0.8;
+    }
+}
+
+.title_price{
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 23px;
+    padding-bottom: 7.2px;
+}
+
+.product_price{
+    font-weight: bold;
+}
+
+.product_price span span{
+    text-decoration: underline solid black 2px;
+}
+
+.product_total_price{
+    font-weight: bold;
+}
+.product_total_price span span{
+    text-decoration: underline solid black 2px;
+}
+.back_shop button:hover{
+    background-color: #ffc738;
+    color: #fff;
+}
+.back_shop button{
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    border: #ffc738 solid 2px;
+    color: #ffc738;
+    background-color: white;
+
+    cursor: pointer;
+
+}
+.update_cart{
+
+    margin-left: 10px;
+}
+.update_cart button{
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: #ffc738;
+
+    cursor: pointer;
+
+    &:hover{
+        opacity: 0.8;
+    }
+}

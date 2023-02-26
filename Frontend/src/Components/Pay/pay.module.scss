@@ -1,0 +1,122 @@
+.pay{
+    
+}
+.main{
+    margin: 30px 159.6px;
+    .title{
+        font-size: 28px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .content{
+        display: flex;
+        .pay_info{
+            flex: 1.5;
+            margin-right: 30px;
+            .pay_info_title{
+                font-weight: 600;
+                font-size: 22;
+                margin: 30px 0;
+            }
+            .pay_info_item{
+                display: flex;
+                flex-direction: column;
+                label{
+                    margin-bottom: 6px;
+                    font-weight: 600;
+                }
+                .pay_info_input{
+                    font-size: 14px;
+                    border-radius: 5px;
+                    padding: 10px;
+                    outline: none;
+                    border: 1px solid #ccc;
+                    &:focus{
+                        box-shadow: 0 0 5px #ccc;
+                        opacity: 1 !important;
+                        outline: 0;
+                        color: #333;
+                        background-color: #fff;
+                    }
+                }
+                margin-bottom: 14px;
+            }
+            .pay_info_more_info{
+                font-weight: 600;
+            }
+            .pay_info_more_info_text{
+                margin-top: 10px;
+                width: 100%;
+                .text{
+                    width: 100%;
+                    min-height: 120px;
+                    resize: none;
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    &:focus{
+                        box-shadow: 0 0 5px #ccc;
+                        opacity: 1 !important;
+                        outline: 0;
+                        color: #333;
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+        .order_info{
+            flex: 1;
+            padding: 30px;
+            border: 2px solid #ffb400;
+            height: fit-content;
+            .order_info_title{
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+            .order_info_table{
+                border-spacing: 0;
+                tr,th,td{
+                    padding: 10px 0;
+                    width: 100%;
+                }
+                .order_head_left{
+                    text-align: start;
+                    border-bottom: 2px solid #ccc;
+                    
+                }
+                .order_head_right{
+                    width: 100px;
+                    padding-left: 20px;
+                    text-align: end;
+                    border-bottom: 2px solid #ccc;
+                    font-weight: 600;
+                }
+                .order_body_left{
+                    text-align: start;
+                    border-bottom: 1px solid #ccc;
+                }
+                .order_body_right{
+                    width: 100px;
+                    padding-left: 20px;
+                    text-align: end;
+                    border-bottom: 1px solid #ccc;
+                    color: red;
+                }
+            }
+            .order_btn{
+                margin: 20px 0;
+                button{
+                    padding: 10px 20px;
+                    background-color: #4eac4b;
+                    border-radius: 5px;
+                    color: #fff;
+                    font-size: 16px;
+                    cursor: pointer;
+                    &:hover{
+                        box-shadow: 0 0 5px #ccc;
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+    }
+}

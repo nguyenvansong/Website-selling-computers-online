@@ -1,0 +1,149 @@
+.dashboard{
+    background-color: #ccc;
+    margin-left: 248px;
+}
+.dashboard_content{
+    .title_page{
+        background-color: rgb(255, 255, 255);
+        height: 160px;
+        border-bottom: 3px solid #ccc;
+        border-left: 3px solid #ccc;
+        border-right: 3px solid #ccc;
+        border-radius: 5px;
+        .title{
+            display: flex;
+            font-size: 20px;
+            font-weight: bold;
+            border-bottom: 1px solid #ccc;
+            height: 40%;
+            padding-left: 30px;
+            align-items: center;
+        }
+        .datetime{
+            margin-top: 20px;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            .select_datetime{
+                width: 30%;
+                height: 40px;
+                margin-left: 10px;
+                margin-right: 10px;
+                border-radius: 5px;
+                padding-left:10px ;
+                padding-right: 10px;
+                border: 1px solid #ccc;
+            }
+        }
+    }
+
+    .dashboard_content_child{
+        display: flex;
+        height: 100%;
+        .content_center{
+            margin-top: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            background-color: white;
+            width: 70%;
+            border-radius: 10px;
+            .revenue_statistics_years{
+                padding: 10px 30px;
+                .revenue_statistics_years_title{
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+            }
+
+        }
+        .content_right{
+            width: 30%;
+            padding-right: 10px;
+            .revenue_content{
+                width: 100%;
+                height: 300px;
+                padding: 30px 20px;
+                background-color: white;
+                border-radius: 10px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                .revenue_total{
+                    display: flex;
+                    height: 25%;
+                    .revenue_total_span{
+                        display: flex;
+                        font-size: 22px;
+                        font-weight: bold;
+                        align-items: center;
+                        border-radius: 4px;
+                        padding-left: 20px;
+                    }
+                    .revenue_total_span_1{
+                        font-size: 20px;
+                        margin-left: 5px;
+                        margin-right: 5px;
+                        font-weight: bolder;
+                        text-decoration: 1px underline black solid;
+                    }
+                    .revenue_total_span_2{
+                        height: 50%;
+                        font-size: 22px;
+                        background-color: rgb(253, 164, 179);
+                        color: white;
+                        border-radius: 5px;
+                        align-self: center;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        margin-left: 5px;
+                    }
+                }
+                .text_Revenue_total{
+                    height: 15%;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #7d7777;
+                }
+            }
+        }
+    }
+}
+.best_product_selling{
+    padding: 30px;
+    .best_product_selling_title{
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    .best_product_selling_table{
+        width: 100%;
+        .best_product_selling_table_head th{
+            padding: 15px;
+            background-color: rgb(210, 151, 49);
+            color: white;
+            width: 100%;
+        }
+        .best_product_selling_table_body{
+            max-height: 234.8px;
+            overflow-y: auto;
+            width: 100%;
+            .infor_table {
+                td{
+                    padding: 3.6px 15px;
+                    text-align: center;
+                }
+                .product_img{
+                    .img_title{
+                        width: 66px;
+                        height: 66px;
+                    }
+                }
+                .product_name{
+                    max-width: 484px;
+                    .name_product{
+                        word-wrap: break-word;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,193 @@
+.content_ads{
+    margin-top: 20px;
+    margin-left: 159.6px;
+    margin-right: 159.6px;
+    display: flex;
+}
+/* slider */
+.content_left{
+    width: 70%;
+}
+.content_right{
+    width: 30%;
+}
+.slider{
+    .image_item{
+        width: 100%;
+        .image{
+            width: 100%;
+        }
+    }
+}
+.notable_products{
+    .category{
+        width: 100%;
+        background-color: #4eac4b;
+        margin-top: 20px;
+        .list_category{
+            display: flex;
+            .item{
+                padding: 10px;
+                list-style-type: none;
+                color: #fff;
+                cursor: pointer;
+                font-size: 15px;
+                &:hover{
+                    background-color: rgb(133, 133, 133);
+                }
+            }
+        }
+    }
+    .product{
+        display: flex;
+        margin-top: 20px;
+        overflow: hidden;
+        a{
+            text-decoration: none;
+        }
+        .product_item{
+            width: 25%;
+            height: 330px;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 1px 1px 5px 2px rgb(219, 219, 219);
+            cursor: pointer;
+            &:hover{
+                box-shadow: 1px 1px 3px 2px rgb(163, 163, 163);
+            }
+            .product_image{
+                width: 100%;
+            }
+            .product_name{
+                margin: 10px 0;
+                height: 67px;
+                overflow: hidden;
+            }
+            .product_price{
+                color: red;
+            }
+        }
+    }
+}
+.product_item + .product_item{
+    position: relative;
+    margin-left: 10px;
+}
+/* Content_new */
+.content_new{
+    margin-left: 20px;
+    .content_new_title{
+        border-bottom: 1px solid #4eac4b;
+        span{
+            position: relative;
+            width: 100px;
+            display: block;
+            background-color: #4eac4b;
+            padding: 10px;
+            text-align: center;
+            color: #fff;
+            &::before{
+                content: "";
+                position: absolute;
+                right: -29px;
+                top: 0;
+                width: 0;
+                height: 0;
+                border-right: 30px solid transparent;
+                border-bottom: 40px solid rgb(0, 78, 30);
+            }
+        }
+    }
+    .content_new_wrap{
+        margin-top: 10px;
+        background-color: #fff;
+        padding: 10px;
+        .content_new_list{
+            .content_new_item{
+                cursor: pointer;
+                list-style-type: none;
+                display: flex;
+                align-items: center;
+                &:hover{
+                    box-shadow: 1px 1px 2px 2px #ccc;
+                }
+                .wrap_image{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 45%;
+                    overflow: hidden;
+                    margin-right: 5px;
+                    height: 76px;
+                    .content_new_item_image{
+                        width: 100%;
+                        height: 100px;
+                    }
+                }
+                span{
+                    width: 55%;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+.content_new_item + .content_new_item{
+    margin-top: 10px;
+}
+
+.content_right{
+    .ads{
+        margin-left: 20px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+// Trang
+.mg_left_right{
+    margin: 0 159.6px;
+}
+.category_bonus{
+    background-color: #fff;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    padding: 0 20px;
+}
+.category_list_compo{
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+.category_item_bonus{
+    list-style-type: none;
+    color: #000000;
+    cursor: pointer;
+    text-align: center;
+    font-size: large;;
+}
+
+.category_item_bonus a{
+    text-decoration: none;
+    color: #000000;
+    margin-left: 5px;
+}
+.category_item_bonus a:hover{
+    text-decoration: none;
+    color: #4eac4b;
+    margin-left: 5px;
+}
+.img_bonus{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.img_bonus:hover{
+    border:#4eac4b 2px solid;
+}

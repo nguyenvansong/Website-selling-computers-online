@@ -1,0 +1,98 @@
+
+.content_wrap{
+    margin: 0 159.6px;
+}
+.selection_block{
+    height: calc(1519.2 * 724.13);
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.div_title{
+    background-color: white;
+    height: 36.8px;
+    border-bottom: 2px solid green;
+    position: relative;
+    .span_title{
+        background-color: green;
+        width: 164.19px;
+        height: 100%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &::after{
+            content: "";
+            width: 0;
+            height: 0;
+            border-top: 35px solid transparent;
+            border-left: 27px solid #333333;
+            border-bottom: 0px solid transparent;
+            border-right: 0 solid transparent;
+            position: absolute;
+            top: 2px;
+            margin-left: 189px;
+            z-index: 1;
+        }
+    }
+}
+
+
+
+.div_content{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    .div_content_product{
+        display: flex;
+        flex-wrap: wrap;
+        
+        a{
+            width: auto;
+            text-decoration: none;
+        }
+        .product{
+            background-color:white;
+            padding: 15px 0;
+            width: 230px;
+            height: 333.66px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+            margin: 5px;
+            &:hover{
+                box-shadow: 2px 2px 10px #0000001a;
+                cursor: pointer;
+            }
+            .box_image{
+                .img_product{
+                    width: 188.4px;
+                    height: 188.4px;
+                }
+            }
+            .info_product{
+                margin-top: 5px;
+                margin: 15px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                color: red;
+                font-weight: 900;
+                .product_name{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 14px;
+                    text-align: center;
+                    height: 78px;
+                    overflow: hidden;
+                    &:hover{
+                        color: burlywood;
+                    }
+                }
+            }
+        }
+    }
+}

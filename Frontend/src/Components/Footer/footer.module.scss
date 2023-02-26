@@ -1,0 +1,93 @@
+/* Footer */
+.footer{
+    background-color: #fbfbfb;
+    padding: 10px 160px;
+    margin-top: 50px;
+}
+.wrap_main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(87, 87, 87);
+    .title{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    .list_info{
+        .list_info_item{
+            margin-bottom: 10px;
+            span{
+                margin-left: 10px;
+            }
+        }
+    }
+    ul{
+        list-style-type: none;
+        
+    }
+    li{
+        color: rgb(95, 95, 95);
+    }
+}
+.pay{
+    width: 200px;
+    .list_pay{
+        display: flex;
+        flex-wrap: wrap;
+        .pay_item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            background-color: #fff;
+            box-shadow: 1px 1px 6px 2px #ccc;
+            border-radius: 5px;
+            padding: 3px;
+        }
+    }
+}
+.policy{
+    .policy_item{
+        margin-bottom: 10px;
+    }
+}
+.certification{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    .certification_item_1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 50px;
+        background-image: url('./images/bocongthuong1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* margin-right: 10px; */
+        
+    }
+    .certification_item_2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 50px;
+        background-image: url('./images/bocongthuong2.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* margin-left: 10px; */
+    }
+    a{
+        width: 100%;
+    }
+}
+.copyright{
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(95, 95, 95);
+}

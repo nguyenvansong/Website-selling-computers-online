@@ -1,0 +1,92 @@
+
+.clear{
+    clear: both;
+}
+.main{
+    margin: 0;
+}
+.main .way .link_way{
+    text-decoration: none;
+}
+.main .way .icon{
+    margin: 0 5px;
+    font-size: 12px;
+}
+.show_page_title{
+    border-bottom: 2px solid #4EAC4B;
+    position: relative;
+}
+.main .show_page_title .brand_title{
+    font-weight: bold;
+    font-size: 13px;
+    background-color: #4EAC4B;
+    color: white;
+    width: 150px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    position: relative;
+    p{
+        margin: 0;
+    }
+}
+.main .show_page_title .brand_title::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    right: -27px;
+    border-right: 27px solid transparent;
+    border-bottom: 35px solid rgb(0, 78, 30);
+    bottom: 0;
+}
+
+.main .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    background-color: white;
+    position: relative;
+    border-radius: 5px;
+}
+body{
+    background-color: #F5F5F5;
+}
+.main .item:hover{
+    cursor: pointer;
+}
+.main .item .discount{
+    border-radius: 50%;
+    background-color: gold;
+    padding: 8px;
+    font-size: 13px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.item .product_img{
+    height: 150px;
+}
+.item .content{
+    padding: 10px 10px 20px;
+}
+.item .content a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+.item .content a:hover{
+    text-decoration: underline;
+    color: plum;
+}
+.item .content .content_name{
+
+}
+.item .content .content_desc{
+    margin-top: 10px;
+    line-height: 1.6;
+}
